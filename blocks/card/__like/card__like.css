@@ -1,4 +1,4 @@
-.card__description_like-button {
+.card__like {
   margin: 0;
   width: 22px;
   height: 19px;
@@ -10,6 +10,6 @@
   background-repeat: no-repeat;
 }
 
-.card__description_like-button:hover {
+.card__like:hover {
   opacity: 0.6;
 }
