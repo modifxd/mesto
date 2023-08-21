@@ -1,0 +1,16 @@
+.profile-container {
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 880px) {
+  .profile-container {
+    flex-flow: column nowrap;
+    justify-content: baseline;
+    align-items: center;
+    gap: 26px;
+  }
+}

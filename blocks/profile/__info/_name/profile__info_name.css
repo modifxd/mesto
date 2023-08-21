@@ -1,0 +1,11 @@
+.profile__info_name {
+  display: flex;
+  gap: 18px;
+  align-items: baseline;
+}
+
+@media screen and (max-width: 880px) {
+  .profile__info_name {
+    gap: 10px;
+  }
+}
