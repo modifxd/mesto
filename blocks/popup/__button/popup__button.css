@@ -1,5 +1,8 @@
 .popup__button {
-  margin: 12px auto 37px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 18px auto 37px;
   width: 358px;
   height: 50px;
   background-color: #000;
@@ -10,11 +13,12 @@
 }
 
 .popup__button:hover {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 880px) {
   .popup__button {
+    font-size: 14px;
     width: 238px;
     height: 46px;
     margin: 15px auto 25px;
