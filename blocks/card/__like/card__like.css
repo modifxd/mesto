@@ -8,6 +8,7 @@
   cursor: pointer;
   background-size: contain;
   background-repeat: no-repeat;
+  flex-shrink: 0;
 }
 
 .card__like:hover {
